@@ -1,0 +1,4 @@
+Name, surname... - #351919  size: 14pt Font: Oxygen Bold
+Olivia - #574848 size: 14pt Font: Oxygen Light
+Rounded insert area- color: #ffffff opacity: 68% 
+	obrysowanie: kolor: #570a13, size 1px opacity: 31%

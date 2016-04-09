@@ -1,0 +1,569 @@
+#reservationSystemGui{
+    -fx-background-image: url("pictures/background.jpg");
+
+}
+#reservationSystem{
+    -fx-background-image: url("pictures/background_signin.jpg");
+
+}
+#completeReservationBackground{
+    -fx-background-image: url("pictures/backgroundCompleteReservation.jpg");
+}
+.pane{
+    -fx-background-image: url("pictures/backgroundCompleteReservation.jpg");
+}
+#comformition{
+    -fx-background-image: url("pictures/conformitionBackground.jpg");
+
+}
+#conformitionLebel{
+    -fx-font-family: Oxygen bold;
+    -fx-font-size: 24px;
+    -fx-font-weight:bold;
+    -fx-font-fill: #1d1b18;
+
+}
+#conformitionLebelRest{
+    -fx-font-family: Oxygen;
+    -fx-font-size: 17px;
+    -fx-font-fill: #351919;
+
+}
+#conformitionLebelNumber{
+    -fx-font-family: Oxygen;
+    -fx-font-size: 17px;
+    -fx-font-fill: #351919;
+    -fx-font-weight:bold;
+
+
+}
+#conformitionButtton{
+    -fx-background-image:url("pictures/okButton.png");
+    -fx-min-width: 173;
+    -fx-min-height: 47;
+
+}
+#paymentBackground{
+    -fx-background-image:url("pictures/paymentBackground.jpg");
+
+}
+#conformitionButtton:hover{
+    -fx-background-image:url("pictures/okButtonHover.png");
+    -fx-min-width: 173;
+    -fx-min-height: 47;
+
+}
+#member {
+    -fx-text-fill: #351919;
+    -fx-font-family: Oxygen;
+    -fx-font-size: 13px;
+
+}
+#boxUnderSignUpCRS{
+    -fx-background-image: url("pictures/boxUnderSignup.png");
+    -fx-min-width: 468;
+    -fx-min-height: 242;
+}
+#titleUnderlineCompleteReservation{
+    -fx-background-image: url("pictures/line.png");
+}
+#hoverLabelsCompleteReservation{
+    -fx-background-image:url("pictures/firstBox.png");
+    -fx-font-size: 20px;
+}
+#completeReservationLabelTitle{
+    -fx-text-fill: black;
+    -fx-font: 20px "Arial";
+}
+#textFieldInputCRS{
+
+    -fx-background-color: rgba(255, 255, 255, 0.7);/* 40% opaque red */
+    -fx-border-width: 1px;
+    -fx-border-color: #9c5e66;
+    -fx-background-radius: 28%;
+    -fx-border-radius: 10%;
+    -fx-font-size:15px;
+    -fx-max-width: 287;
+    -fx-max-height: 20;
+}
+#buttonCRS{
+    -fx-background-image:url("pictures/completeresButton.jpg");
+    -fx-min-width: 170;
+    -fx-min-height: 48;
+}
+#pictureButton{
+
+}
+#pictureButton:hover{
+}
+#SignInCRS{
+    -fx-text-fill: #701616;
+    -fx-underline:true;
+    -fx-font:15px "Arial";
+    -fx-font-weight:bold;
+
+}
+#labelSignUpCRS{
+    -fx-text-fill: #351919;
+    -fx-font-family: Oxygen Light;
+    -fx-font-size: 15px;
+}
+/* SIGN IN CLASS*/
+#signUpButton{
+    -fx-background-image: url("pictures/lowerButton.jpg");
+    -fx-min-width: 125;
+    -fx-min-height: 25;
+}
+#signUpButton:hover{
+    -fx-background-image: url("pictures/lowerButtonHover.jpg");
+    -fx-min-width: 125;
+    -fx-min-height: 25;
+}
+
+#signInButton{
+    -fx-background-image:url("pictures/signinButton.jpg");
+    -fx-min-width: 98;
+    -fx-min-height: 34;
+}
+#signInButton:hover{
+    -fx-background-image:url("pictures/signinButtonHover.jpg");
+    -fx-min-width: 98;
+    -fx-min-height: 34;
+}
+#inputFieldSignInClass {
+    -fx-background-image: url("pictures/insert.png");
+}
+#mainLabelSignIn{
+    -fx-text-fill: #351919;
+    -fx-font-family: Oxygen Light;
+    -fx-font-size: 15px;
+    -fx-font-weight:bold;
+
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------------------*/
+/*===========================================
+                           CUSTOMER - BOOKINGS - CLASS
+                                      ==========================================================*/
+#mainLabelCB{
+    -fx-text-fill: #351919;
+    -fx-font-family: oxygen;
+    -fx-font-size: 15px;
+    -fx-font-weight:bold;
+}
+#textAreas{
+    -fx-font-size:15px;
+    -fx-max-width: 287;
+    -fx-max-height: 20;
+}
+#saveButton{
+    -fx-background-image:url("pictures/SAVE_button.jpg");
+    -fx-min-width: 98;
+    -fx-min-height: 34;
+}
+#saveButton:hover{
+    -fx-background-image:url("pictures/SAVE_hover.jpg");
+    -fx-min-width: 98;
+    -fx-min-height: 34;
+}
+
+
+#mainLabelStyle{
+    -fx-text-fill: #351919;
+    -fx-font-family: oxygen;
+    -fx-font-size: 18px;
+    -fx-font-weight:bold;
+}
+#greetingsLabel{
+    -fx-text-fill: #1d1b18;
+    -fx-font-family: oxygen;
+    -fx-font-size: 24px;
+    -fx-font-weight:bold;
+    -fx-underline: true;
+}
+#lineLabel{
+    -fx-background-image:url("pictures/lineCustomerBookings.jpg");
+    -fx-size:300;
+
+}
+#defaultAvatarLabel{
+    -fx-background-image: url("pictures/defaultAvatar.png");
+    -fx-min-width:130;
+    -fx-min-height:130;
+}
+#backgroundCustomerBookings{
+    -fx-background-image: url("pictures/backgroundCustomerBookings.jpg");
+}
+
+#logOutCustomerBookings{
+    -fx-background-image:url("pictures/logOutButton.png");
+    -fx-min-width: 105;
+    -fx-min-height: 29;
+}
+#logOutCustomerBookings:hover{
+    -fx-background-image:url("pictures/logOutButtonHover.png");
+    -fx-min-width: 105;
+    -fx-min-height: 29;
+}
+#makeReservationCustomerBookings{
+    -fx-background-image:url("pictures/makeReservationButton.png");
+    -fx-min-width:173;
+    -fx-min-height:47;
+}
+#makeReservationCustomerBookings:hover{
+    -fx-background-image:url("pictures/makeReservationButtonHover.png");
+    -fx-min-width:173;
+    -fx-min-height:47;
+}
+#changeReservationCustomerBookings{
+    -fx-background-image:url("pictures/changeReservation.png");
+    -fx-min-width:173;
+    -fx-min-height:47;
+}
+#changeReservationCustomerBookings:hover{
+    -fx-background-image:url("pictures/changeReservationHover.png");
+    -fx-min-width:173;
+    -fx-min-height:47;
+}
+#leaveCommentCustomerBookings{
+    -fx-background-image: url("pictures/leaveComment.png");
+    -fx-min-width:173;
+    -fx-min-height:47;
+}
+#leaveCommentCustomerBookings:hover{
+    -fx-background-image: url("pictures/leaveCommentHover.png");
+    -fx-min-width:173;
+    -fx-min-height:47;
+}
+#pastBookingsLabel{
+    -fx-text-fill: #351919;
+    -fx-font-family: oxygen;
+    -fx-font-size: 18px;
+    -fx-font-weight:bold;
+}
+#currentReservations{
+    -fx-text-fill: #351919;
+    -fx-font-family: oxygen regular;
+    -fx-font-size: 14px;
+
+}
+#pastReservations{
+    -fx-text-fill: #1d1b18;
+    -fx-font-family: oxygen light;
+    -fx-font-size: 16px;
+}
+
+#newStyle{
+    -fx-min-width: 70;
+    -fx-min-height: 50;
+}
+#errorLabel{
+    -fx-text-fill:C1110E;
+    -fx-font-family: oxygen light ;
+    -fx-font-size: 12;
+}
+#cancelButton{
+    -fx-background-image:url("pictures/cancelButtonCR.jpg");
+    -fx-min-width:173;
+    -fx-min-height:47;
+}
+#cancelButton:hover{
+    -fx-background-image:url("pictures/cancelButtonCRhover.jpg");
+    -fx-min-width:173;
+    -fx-min-height:47;
+}
+#cancel{
+    -fx-background-image:url("pictures/cancel_button.jpg");
+    -fx-min-width:98;
+    -fx-min-height:34;
+}
+#cancel:hover{
+    -fx-background-image:url("pictures/cancel_hover.jpg");
+    -fx-min-width:98;
+    -fx-min-height:34;
+}
+
+/*=================================================================================================*/
+
+#buttonStyle{
+
+    -fx-background-image:url("pictures/emptyButton.jpg");
+    -fx-min-width: 128;
+    -fx-min-height: 48;
+
+
+}
+#buttonStyle-box .cell{
+    -fx-text-fill: blue;
+    -fx-font: 22px "Arial";
+}
+
+#buttonStyle1{
+    -fx-background-image:url("pictures/emptyButton.jpg");
+    -fx-min-width: 80;
+    -fx-min-height: 48;
+
+}
+
+#buttonStyle2{
+    -fx-background-image:url("pictures/emptyButton.jpg");
+    -fx-min-width: 105;
+    -fx-min-height: 48;
+
+}
+
+#buttonStyle3{
+    -fx-background-image: url("pictures/emptyButton.jpg");
+    -fx-min-width: 140;
+    -fx-min-height: 48;
+}
+
+
+
+
+#buttonStyle5{
+    -fx-background-image: url("pictures/findatabel_button.jpg");
+    -fx-min-width: 139;
+    -fx-min-height: 48;
+}
+#buttonStyle5:hover{
+
+    -fx-background-image: url("pictures/findatabel_hover.jpg");
+    -fx-min-width: 139;
+
+    -fx-min-height: 48;
+}
+#label {
+
+    -fx-font-size: 16;
+    -fx-text-fill: #2e2e2e;
+    -fx-font-family: Oxygen Light;
+}
+
+
+#label1 {
+
+    -fx-font-size: 20;
+    -fx-text-fill:  #351919;
+    -fx-font-family: Oxygen Bold;
+
+
+}
+
+#sign {
+
+    -fx-font-size: 14;
+    -fx-text-fill: #484848;
+    -fx-font-family: Oxygen Light;
+}
+#sign1{
+
+    -fx-font-size: 14;
+    -fx-text-fill: #484848;
+    -fx-font-family: Oxygen Light;
+}
+
+.combo-box-base
+{
+    -fx-background-image:url("pictures/emptyButton.jpg");
+    -fx-min-width: 128;
+    -fx-min-height: 48;
+
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: -fx-box-border, -fx-control-inner-background;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}
+.combo-box-popup .list-view .list-cell {
+
+    /* No alternate highlighting */
+    -fx-background-color: #ececec;
+    -fx-text-fill: #9a9a9a;
+    -fx-font-family: Oxygen Light;
+
+
+}
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-text-fill: black;
+    -fx-background-color: #9f9b9d;
+    -fx-font-size:15px ;
+
+
+}
+.combo-box .cell: selected {
+    -fx-text-fill: #828282;
+    -fx-font-family: Oxygen Light;
+    -fx-font-size:15px ;
+
+}
+
+
+#hour-box-base
+{
+    -fx-background-image:url("pictures/emptyButton.jpg");
+    -fx-min-width: 104;
+    -fx-min-height: 48;
+
+}
+
+#hour-box-popup.list-view {
+    -fx-background-color: -fx-box-border, -fx-control-inner-background;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}
+#hour-box-popup.list-view.list-cell {
+
+    /* No alternate highlighting */
+    -fx-background-color: #ececec;
+    -fx-text-fill: #9a3c0e;
+    -fx-font-family: Oxygen Light;
+
+
+}
+#hour-box-popup.list-view.list-cell:hover {
+    -fx-text-fill: #7a1bc6;
+    -fx-background-color: #9f9b9d;
+    -fx-font-size:15px ;
+
+
+}
+#hour-box.cell: selected {
+    -fx-text-fill: #0c2682;
+    -fx-font-family: Oxygen Light;
+    -fx-font-size:15px ;
+
+}
+
+#labelSignUp {
+    -fx-text-fill: #351919;
+    -fx-font-family: Oxygen Light;
+    -fx-font-size: 18px;
+}
+
+
+
+#insert{
+    -fx-background-image:url("pictures/insert.png");
+    -fx-min-width: 173;
+    -fx-min-height: 29;
+
+}
+.date-picker .month-year-pane{
+    -fx-background-color: #af7580;
+    -fx-padding: 5 5 5 5;
+    -fx-text-fill: BLACK;
+}
+.date-picker .day-name-cell{
+    -fx-background-color: rgba(255, 12, 13, 0.15);
+    -fx-text-fill: LIGHTGOLDENRODYELLOW;
+
+}
+/*------------paymentStyle-----------------------------------------------------------------------*/
+#paymentLabel{
+   -fx-text-fill: #1d1b18;
+    -fx-font-size: 26px;
+    -fx-font-family: Oxygen;
+    -fx-font-weight: bold;
+
+
+}
+#totalFee{
+    -fx-text-fill: #351919;
+    -fx-font-size: 14px;
+    -fx-font-family: Oxygen;
+}
+#labelNote{
+    -fx-text-fill: #351919;
+    -fx-font-size: 10px;
+    -fx-font-family: Oxygen;
+}
+
+#cardInformation{
+    -fx-font-family: Oxygen;
+    -fx-text-fill: #625f65;
+    -fx-font-size: 14px;
+
+}
+#continueButton{
+    -fx-background-image: url("pictures/continueButton2.png");
+    -fx-min-width: 173;
+    -fx-min-height: 47;
+
+}
+#continueButton:hover{
+    -fx-background-image: url("pictures/continueButton2Hover.png");
+    -fx-min-width: 173;
+    -fx-min-height: 47;
+
+}
+#textFieldCard{
+
+    -fx-background-color: rgba(255, 255, 255, 0.7);/* 40% opaque red */
+    -fx-border-width: 1px;
+    -fx-border-color: #9c5e66;
+    -fx-background-radius: 28%;
+    -fx-border-radius: 10%;
+    -fx-font-size:14px;
+    -fx-max-width: 285;
+    -fx-max-height: 34;
+}
+#textFieldExpiration{
+
+    -fx-background-color: rgba(255, 255, 255, 0.7);/* 40% opaque red */
+    -fx-border-width: 1px;
+    -fx-border-color: #9c5e66;
+    -fx-background-radius: 28%;
+    -fx-border-radius: 10%;
+    -fx-font-size:14px;
+    -fx-max-width: 141;
+    -fx-max-height: 32;
+}
+#distriptionLabel{
+    -fx-text-fill: #9c0e1e;
+}
+#distriptionLabel:hover{
+    -fx-text-fill: #9c0e1e;
+    -fx-font-weight:bold;
+
+
+
+}
+
+#paymentBackgroundConformition{
+    -fx-background-image: url("pictures/backgroundConfirmPayment.jpg");
+
+}
+#paymentLabelConformition{
+    -fx-text-fill: #1d1b18;
+    -fx-font-family: Oxygen;
+    -fx-font-weight:bold;
+    -fx-font-size: 28px;
+}
+#paymentConformitionRest{
+    -fx-text-fill: #351919 ;
+    -fx-font-family: Oxygen;
+    -fx-font-size: 16px;
+}
+#reservationNumber{
+    -fx-text-fill: #351919 ;
+    -fx-font-family: Oxygen;
+    -fx-font-size: 16px;
+    -fx-font-weight:bold;
+
+}
+#buttonPaymentConformition{
+     -fx-background-image: url("pictures/confirmButton.png");
+     -fx-min-width: 173;
+     -fx-min-height: 47;
+
+ }
+#buttonPaymentConformition:hover{
+    -fx-background-image: url("pictures/confirmButtonHover.png");
+    -fx-min-width: 173;
+    -fx-min-height: 47;
+
+}

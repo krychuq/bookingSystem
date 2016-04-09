@@ -1,0 +1,2 @@
+Type your username and passowrdto signin to your account. - color- #351919 font-Oxygen Bold size-14pt
+user name & passowrd - color- #7b6767 font-Oxygen Light size-14pt
